@@ -1,0 +1,62 @@
+:root {
+  --background-color-light: #f0f0f0;
+  --background-color-dark: #121212;
+  --text-color-light: #333;
+  --text-color-dark: #fff;
+  --primary-color-light: #007bff;
+  --primary-color-dark: #1e3a8a;
+}
+
+/* Default Light Mode */
+body {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+.card {
+  /* background-color: #fff; */
+  background-image: url('/public/weather1.ico');
+  color: #333;
+  background-size:auto;
+  background-position:center;
+  background-repeat: no-repeat;
+  height: 400px; 
+}
+.card .card-title {
+  font-size: 2.5rem; /* Larger size for city name */
+}
+
+.card .lead {
+  font-size: 2rem; /* Larger size for temperature */
+}
+
+.card .card-body p {
+  font-size: 1.5rem; /* Larger size for other weather details */
+}
+
+.card .d-flex span {
+  font-size: 1.2rem; /* Larger size for weather type and humidity */
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.card.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Additional Styles for Buttons */
+.btn-dark-mode {
+  background-color: var(--primary-color-dark);
+  color: #fff;
+}
+
+.btn-dark-mode:hover {
+  background-color: var(--primary-color-light);
+  color: #333;
+}
