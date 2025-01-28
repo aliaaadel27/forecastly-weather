@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/forecastly-weather/static/css/main.afcb269e.css",
+    "main.js": "/forecastly-weather/static/js/main.f173c16a.js",
+    "static/js/488.f0bc3af6.chunk.js": "/forecastly-weather/static/js/488.f0bc3af6.chunk.js",
+    "static/media/weather1.ico": "/forecastly-weather/static/media/weather1.0ec24cbed19a8dd18912.ico",
+    "index.html": "/forecastly-weather/index.html",
+    "main.afcb269e.css.map": "/forecastly-weather/static/css/main.afcb269e.css.map",
+    "main.f173c16a.js.map": "/forecastly-weather/static/js/main.f173c16a.js.map",
+    "488.f0bc3af6.chunk.js.map": "/forecastly-weather/static/js/488.f0bc3af6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afcb269e.css",
+    "static/js/main.f173c16a.js"
+  ]
+}
