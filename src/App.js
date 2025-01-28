@@ -77,7 +77,7 @@ function App() {
 
       {error && <ErrorMessage message={error} />}
 
-      {weatherData && <CurrentWeather data={weatherData} isDarkMode={darkMode} />}
+      {weatherData && <CurrentWeather data={weatherData} />}
       {forecastData && <Forecast data={forecastData} isDarkMode={darkMode} />}
     </div>
   );
